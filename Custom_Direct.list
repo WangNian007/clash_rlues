@@ -1,12 +1,3 @@
-# NAME: Custom_Direct
-# AUTHOR: WangNian007
-# REPO: https://github.com/WangNian007/clash_rlues
-# UPDATED: 2024-07-03 20:16:58
-# DOMAIN: 0
-# DOMAIN-KEYWORD: 
-# DOMAIN-SUFFIX: 4
-# IP-CIDR: 0
-# TOTAL: 4
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,ipw.cn
 DOMAIN-SUFFIX,m-team.io
