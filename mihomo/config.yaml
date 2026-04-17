@@ -17,7 +17,7 @@ proxies:
 mixed-port: 7890
 allow-lan: true
 bind-address: "*"
-ipv6: false
+ipv6: true
 unified-delay: true
 tcp-concurrent: true
 log-level: warning
@@ -49,6 +49,10 @@ sniffer:
   skip-domain:
     - "Mijia Cloud"
     - "+.push.apple.com"
+
+hosts:
+  work.lan: 192.168.1.104
+
 
 # 入站
 tun:
