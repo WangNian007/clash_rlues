@@ -88,6 +88,8 @@ dns:
   nameserver:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
+  direct-nameserver:
+    - system
  
 
 # 策略组类型模板 - 定义不同的策略组基础配置
