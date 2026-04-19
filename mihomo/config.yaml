@@ -132,6 +132,7 @@ proxy-groups:
   - {name: 🎥 NETFLIX, type: select, proxies: [🔯 香港故转, 🔯 日本故转, 🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇫🇷 法国节点, 🇩🇪 德国节点, 🇦🇺 澳大利亚节点, 🇨🇦 加拿大节点, 🇺🇦 乌克兰节点, 🇹🇷 土耳其节点, 🇷🇺 俄罗斯节点, 🇮🇳 印度节点, 🌐 全部节点, 直连]}
   - {name: 💶 PayPal, type: select, proxies: [🔯 香港故转, 🔯 日本故转, 🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇫🇷 法国节点, 🇩🇪 德国节点, 🇦🇺 澳大利亚节点, 🇨🇦 加拿大节点, 🇺🇦 乌克兰节点, 🇹🇷 土耳其节点, 🇷🇺 俄罗斯节点, 🇮🇳 印度节点, 🌐 全部节点, 直连]}
   - {name: 🕊️ Twitter, type: select, proxies: [🔯 香港故转, 🔯 日本故转, 🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇫🇷 法国节点, 🇩🇪 德国节点, 🇦🇺 澳大利亚节点, 🇨🇦 加拿大节点, 🇺🇦 乌克兰节点, 🇹🇷 土耳其节点, 🇷🇺 俄罗斯节点, 🇮🇳 印度节点, 🌐 全部节点, 直连]}
+  - {name: 📦 PT服务, type: select, proxies: [直连, 🔯 香港故转, 🔯 日本故转, 🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇫🇷 法国节点, 🇩🇪 德国节点, 🇦🇺 澳大利亚节点, 🇨🇦 加拿大节点, 🇺🇦 乌克兰节点, 🇹🇷 土耳其节点, 🇷🇺 俄罗斯节点, 🇮🇳 印度节点, 🌐 全部节点]}
   - {name: 🍎 苹果服务, type: select, proxies: [直连, 🔯 香港故转, 🔯 日本故转, 🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇫🇷 法国节点, 🇩🇪 德国节点, 🇦🇺 澳大利亚节点, 🇨🇦 加拿大节点, 🇺🇦 乌克兰节点, 🇹🇷 土耳其节点, 🇷🇺 俄罗斯节点, 🇮🇳 印度节点, 🌐 全部节点]}
   - {name: 🐟 漏网之鱼, type: select, proxies: [直连, 🔯 香港故转, 🔯 日本故转, 🔯 美国故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇫🇷 法国节点, 🇩🇪 德国节点, 🇦🇺 澳大利亚节点, 🇨🇦 加拿大节点, 🇺🇦 乌克兰节点, 🇹🇷 土耳其节点, 🇷🇺 俄罗斯节点, 🇮🇳 印度节点, 🌐 全部节点]}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: *FilterHK }
@@ -165,6 +166,7 @@ rules:
   - RULE-SET,private_ip,直连,no-resolve
   - RULE-SET,apple_domain,🍎 苹果服务
   - RULE-SET,apple_ip,🍎 苹果服务
+  - RULE-SET,private_tracker,📦 PT服务
   - RULE-SET,cn_domain,直连
   - RULE-SET,cn_ip,直连
   - RULE-SET,custom_proxy,🚀 默认代理
@@ -219,3 +221,4 @@ rule-providers:
   cn_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"}
   Twitter_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/🇹🇼itter.mrs"}
   steam_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/steam.mrs"}
+  private_tracker: { <<: *class, url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PrivateTracker/PrivateTracker.list"}
