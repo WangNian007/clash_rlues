@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,dns.quad9.net
 DOMAIN-SUFFIX,hk-hkg.doh.sb
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,ikuuu.org
+DOMAIN-SUFFIX,nexusmods.com
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
