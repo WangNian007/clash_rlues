@@ -84,7 +84,7 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 # 兜底策略
 兜底后备策略=fallback, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, interval=60, max-timeout=2000, img-url=https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
 AI策略=fallback, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, interval=60, max-timeout=2000, img-url=https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
-Telegram策略=select,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, interval=60, max-timeout=2000, img-url=https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/Telegram.png
+Telegram策略=select,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 
 [Rule]
 # 当配置文件中没有任何有效策略组时，Loon将使用内置的PROXY策略组
