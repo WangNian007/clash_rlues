@@ -90,15 +90,14 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 
 # --------------------------------
 # 兜底策略
-#兜底后备策略=fallback, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, interval=60, max-timeout=2000, img-url=https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
 AI策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动策略, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, interval=60, max-timeout=2000, img-url=https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
 Twitter策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png
 Steam策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Steam.png
-YouTube策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Steam.png
+YouTube策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
 Google策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
 Github策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Github.png
 微软策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png
-TikTok策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png
+TikTok策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png
 Telegram策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 Apple策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
 
