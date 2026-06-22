@@ -68,17 +68,18 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 
 # --------------------------------
 # 兜底策略
-AI策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动策略, interval=60, max-timeout=2000, img-url=https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
+AI策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动策略, interval=60, max-timeout=2000, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/chatgpt(balck).png
 Twitter策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png
 Steam策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Steam.png
 YouTube策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
 Google策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
-Github策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Github.png
+Github策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/github.png
 微软策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png
 TikTok策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png
 Telegram策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
 Apple策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
 Netflix策略=select,新加坡自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 香港自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
+漏网之鱼=select,DIRECT,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/05icon/yu.png
 [Rule]
 # 当配置文件中没有任何有效策略组时，Loon将使用内置的PROXY策略组
 # 当配置文件中存在有效的策略组时，内置的PROXY策略组将不再允许被调用，仅可使用用户配置的策略组
@@ -88,7 +89,7 @@ IP-CIDR, 28.0.0.1/8, DIRECT
 IP-CIDR, 198.18.0.1/16, DIRECT
 IP-CIDR, 198.18.0.0/15, DIRECT
 IP-CIDR6, fc00::/18, DIRECT
-FINAL, DIRECT
+FINAL, 漏网之鱼
 
 [Remote Rule]
 https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=AI策略, tag=AI, enabled=true
