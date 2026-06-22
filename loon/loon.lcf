@@ -46,36 +46,14 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 
 # --------------------------------
 # 地区策略
-香港手动策略=select, 香港节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾手动策略=select, 台湾节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本手动策略=select, 日本节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国手动策略=select, 韩国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新加坡手动策略=select, 新加坡节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国手动策略=select, 美国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
-俄罗斯手动策略=select, 俄罗斯节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/RU.png
-英国手动策略=select, 英国节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/UK.png
-全球手动策略=select, 全球节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
-
-香港自动策略=url-test, 香港节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾自动策略=url-test, 台湾节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本自动策略=url-test, 日本节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国自动策略=url-test, 韩国节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新加坡自动策略=url-test, 新加坡节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国自动策略=url-test, 美国节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
-俄罗斯自动策略=url-test, 俄罗斯节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/RU.png
-英国自动策略=url-test, 英国节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/UK.png
-
-# --------------------------------
-# 场景策略
-香港手动场景=ssid, default=香港手动策略, cellular=香港手动策略, "1819-5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
-台湾手动场景=ssid, default=台湾手动策略, cellular=台湾手动策略, "1819-5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
-日本手动场景=ssid, default=日本手动策略, cellular=日本手动策略, "1819-5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
-韩国手动场景=ssid, default=韩国手动策略, cellular=韩国手动策略, "1819-5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-新加坡手动场景=ssid, default=新加坡手动策略, cellular=新加坡手动策略, "1819-5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
-美国手动场景=ssid, default=美国手动策略, cellular=美国手动策略, "1819-5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
-俄罗斯手动场景=ssid, default=俄罗斯手动策略, cellular=俄罗斯手动策略, "1819-5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/RU.png
-英国手动场景=ssid, default=英国手动策略, cellular=英国手动策略, "1819-5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/UK.png
-全球手动场景=ssid, default=全球手动策略, cellular=全球手动策略, "1819-5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+香港自动策略=url-test, 香港节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+台湾自动策略=url-test, 台湾节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+日本自动策略=url-test, 日本节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+韩国自动策略=url-test, 韩国节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+新加坡自动策略=url-test, 新加坡节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+美国自动策略=url-test, 美国节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+俄罗斯自动策略=url-test, 俄罗斯节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
+英国自动策略=url-test, 英国节点, interval=60, tolerance=50, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Urltest.png
 
 香港自动场景=ssid, default=香港自动策略, cellular=香港自动策略, "1819-5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
 台湾自动场景=ssid, default=台湾自动策略, cellular=台湾自动策略, "1819-5G"=DIRECT, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
@@ -90,17 +68,17 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 
 # --------------------------------
 # 兜底策略
-AI策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动策略, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, interval=60, max-timeout=2000, img-url=https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
-Twitter策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png
-Steam策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Steam.png
-YouTube策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
-Google策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
-Github策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Github.png
-微软策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png
-TikTok策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png
-Telegram策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-Apple策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, 香港手动策略, 台湾手动策略, 日本手动策略, 韩国手动策略, 新加坡手动策略, 美国手动策略, 俄罗斯手动策略, 英国手动策略, 全球手动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
-
+AI策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动策略, interval=60, max-timeout=2000, img-url=https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
+Twitter策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png
+Steam策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Steam.png
+YouTube策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/YouTube.png
+Google策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Google.png
+Github策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Github.png
+微软策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Microsoft.png
+TikTok策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/TikTok.png
+Telegram策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
+Apple策略=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
+Netflix策略=select,新加坡自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 香港自动场景, 美国自动场景, 俄罗斯自动策略, 英国自动场景, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Netflix.png
 [Rule]
 # 当配置文件中没有任何有效策略组时，Loon将使用内置的PROXY策略组
 # 当配置文件中存在有效的策略组时，内置的PROXY策略组将不再允许被调用，仅可使用用户配置的策略组
@@ -114,7 +92,7 @@ FINAL, DIRECT
 
 [Remote Rule]
 https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=AI策略, tag=AI, enabled=true
-https://rule.kelee.one/Loon/Netflix.lsr, policy=新加坡手动场景, tag=Netflix, enabled=true
+https://rule.kelee.one/Loon/Netflix.lsr, policy=Netflix策略, tag=Netflix, enabled=true
 https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy=DIRECT, tag=LAN, enabled=true
 https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy=DIRECT, tag=CN REGION, enabled=true
 https://rule.kelee.one/Loon/Twitter.lsr,policy=Twitter策略,tag=Twitter,enable=true
