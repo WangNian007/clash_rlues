@@ -79,6 +79,7 @@ Telegram=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩
 Apple=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动, 英国自动场景, DIRECT, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/03CNSoft/apple.png
 Netflix=select,新加坡自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 香港自动场景, 美国自动场景, 俄罗斯自动, 英国自动场景, DIRECT, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/netflix(old).png
 Speedtest=select, DIRECT, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动, 英国自动, DIRECT, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/03CNSoft/speedtest(2).png
+Discord=select,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动, 英国自动, DIRECT, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/discord.png
 Custom_Proxy=select,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动, 英国自动, DIRECT
 漏网之鱼=select,DIRECT,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动, 英国自动场景, DIRECT, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/05icon/yu.png
 [Rule]
@@ -93,10 +94,11 @@ IP-CIDR6, fc00::/18, DIRECT
 FINAL, 漏网之鱼
 
 [Remote Rule]
-https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=AI, tag=AI, enabled=true
-https://rule.kelee.one/Loon/Netflix.lsr, policy=Netflix, tag=Netflix, enabled=true
 https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy=DIRECT, tag=LAN, enabled=true
 https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy=DIRECT, tag=CN REGION, enabled=true
+https://raw.githubusercontent.com/WangNian007/clash_rlues/refs/heads/master/Custom_Proxy.list,policy=Custom_Proxy,tag=Custom_Proxy,enable=true
+https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=AI, tag=AI, enabled=true
+https://rule.kelee.one/Loon/Netflix.lsr, policy=Netflix, tag=Netflix, enabled=true
 https://rule.kelee.one/Loon/Twitter.lsr,policy=Twitter,tag=Twitter,enable=true
 https://rule.kelee.one/Loon/Steam.lsr,policy=Steam,tag=Steam,enabled=true
 https://rule.kelee.one/Loon/YouTube.lsr,policy=YouTube,tag=YouTube,enabled=true
@@ -107,7 +109,7 @@ https://rule.kelee.one/Loon/TikTok.lsr,policy=TikTok,tag=TikTok,enable=true
 https://rule.kelee.one/Loon/Telegram.lsr,policy=Telegram,tag=Telegram,enabled=true
 https://rule.kelee.one/Loon/Apple.lsr,policy=Apple,tag=Apple,enable=true
 https://rule.kelee.one/Loon/Speedtest.lsr,policy=Speedtest,tag=Speedtest,enable=true
-https://raw.githubusercontent.com/WangNian007/clash_rlues/refs/heads/master/Custom_Proxy.list,policy=Custom_Proxy,tag=Custom_Proxy,enable=true
+https://rule.kelee.one/Loon/Discord.lsr,policy=Discord,tag=Discord,enable=true
 
 [Host]
 ssid: 1819-5G=server: 192.168.1.1
