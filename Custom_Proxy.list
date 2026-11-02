@@ -52,4 +52,5 @@ IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
 DOMAIN,gofile.io
 DOMAIN,gitgud.io
+DOMAIN,proxy.67373.vip
 
