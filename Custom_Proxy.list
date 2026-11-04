@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,movie-pilot.org
 DOMAIN-SUFFIX,proxmox.com
 DOMAIN-SUFFIX,peach.video
+DOMAIN-SUFFIX,halomt.com
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
 IP-CIDR,1.1.1.1/32,no-resolve
@@ -55,4 +56,5 @@ DOMAIN,gitgud.io
 DOMAIN,proxy.67373.vip
 DOMAIN,9cain.com
 DOMAIN,dforigin.online
+
 
