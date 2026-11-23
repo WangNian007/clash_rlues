@@ -80,6 +80,7 @@ Apple=select, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国
 Netflix=select,新加坡自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 香港自动场景, 美国自动场景, 俄罗斯自动, 英国自动场景, DIRECT, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/netflix(old).png
 Speedtest=select, DIRECT, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动, 英国自动, DIRECT, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/03CNSoft/speedtest(2).png
 Discord=select,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动, 英国自动, DIRECT, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/discord.png
+Reddit=select,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动, 英国自动, DIRECT, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/04ProxySoft/reddit(1).png
 Custom_Proxy=select,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动, 英国自动, DIRECT
 漏网之鱼=select,DIRECT,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新加坡自动场景, 美国自动场景, 俄罗斯自动, 英国自动场景, DIRECT, img-url=https://raw.githubusercontent.com/lige47/lige_icon/main/icon/05icon/yu.png
 [Rule]
@@ -110,6 +111,7 @@ https://rule.kelee.one/Loon/Telegram.lsr,policy=Telegram,tag=Telegram,enabled=tr
 https://rule.kelee.one/Loon/Apple.lsr,policy=Apple,tag=Apple,enable=true
 https://rule.kelee.one/Loon/Speedtest.lsr,policy=Speedtest,tag=Speedtest,enable=true
 https://rule.kelee.one/Loon/Discord.lsr,policy=Discord,tag=Discord,enable=true
+https://rule.kelee.one/Loon/Reddit.lsr,policy=Reddit,tag=Reddit,enable=true
 
 [Host]
 ssid: 1819-5G=server: 192.168.1.1
